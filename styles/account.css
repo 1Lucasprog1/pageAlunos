@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #7B0000;
+}
+.nav{
+    width:100%;
+    display: flex;
+    flex-direction: flex-start;
+    align-items: center;
+    height: 70px;
+    padding-left: 25px;
+}
+.nav img{
+    width: 120px;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height:450px;
+    gap:35px;
+    flex-direction: column;
+}
+section img{
+    border-radius: 20px;
+    width:120px;
+}
+a{
+    font-family: Arial;
+    font-weight: bold;
+    text-decoration: none;
+}
+p{
+    text-align: center;
+    padding-top: 10px;
+    color: gray;
+}
+h2{
+   font-family: Arial;
+   font-size: 38px;
+   color: white;
+   font-weight: bold;
+}
+.principal{
+    display: flex;
+    flex-direction: row;
+    gap:30px;
+}
+h3{
+    font-family: Arial;
+    font-weight: bold;
+    color:white;
+    width:150px;
+    padding: 0;
+    margin:0;
+}
+.lapis{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    gap:5px;
+    background-color: black;
+    border-radius: 20px;
+    border: gray 1px solid;
+    margin-top:30px;
+    padding:5px;
+}
+.lapis:hover{
+    cursor: pointer;
+}
+.lapis img{
+    padding-left:8px;
+}
+
