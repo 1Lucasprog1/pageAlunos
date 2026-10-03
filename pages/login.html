@@ -15,38 +15,26 @@
 	
 	<!-- Caixa central de cadastro -->
 	<main class="cadastro-container">
-		<h2>Crie sua conta </h2>
+		<h2>Informe seus dados para entrar </h2>
 		
 		<!-- Formulário -->
 		<form id="form-cadastro">
-			<div class="input-group">
-				<input type="text" id="nome" placeholder="Nome da conta" required>
-			</div>
-			
+
 			<div class="input-group">
 				<input type="email" id="e-mail" placeholder="Email" required>
 			</div>
 			
 			<div class="input-group">
-				<input type="tel" id="telefone" placeholder="Telefone(ex:11999999999)" required>
+				<input type="password" id="password" placeholder="Senha" required>
 			</div>
 			
-			<div class="input-group">
-				<input type="password" id="password" placeholder="Crie uma senha" required>
-			</div>
+			<button type="submit" class="btn-cadastrar">Entrar</button>
 			
-			<button type="submit" class="btn-cadastrar">Cadastrar</button>
-			
+			<p class="login-link">Ou <a href="./cadastro.html">Crie uma conta</a></p>
 		</form>
-		
-		<p class="login-link">Já tem uma conta?<a href="./login.html">Entrar</a></p>
 	</main>
 	
 	<!-- Usando o mesmo arquivo JS da página inicial -->
 	<script src="../js/script.js"></script>
 </body>
 </html>
-
-
-
-    
